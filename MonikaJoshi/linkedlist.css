@@ -1,0 +1,33 @@
+* {
+    margin: 0; 
+    padding: 0px;
+}
+
+.control {
+    position: fixed;
+    width: 100%;
+
+    padding: 10px;
+    background-color: #3d3d3e;
+
+    text-align: center;
+}
+
+.wrapper {
+    overflow-x: scroll;
+}
+
+input {
+    padding: 2px;
+    text-align: center;
+    font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+    color: white;
+    border: unset;
+    background-color: #3D3D3E;
+}
+
+button {
+    padding: 4px;
+
+    margin-left: 5px;
+}

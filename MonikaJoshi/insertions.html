@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- head -->
+<head>
+	
+	
+        <link href="insertions.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="main.css" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script >
+    $(document).ready(function(){
+        $('#icon').click(function() {
+            $('ul').toggleClass('show');
+        });
+    });
+</script>
+</head>
+
+<!-- body -->
+<body>
+    <nav>
+        <label class='logo'>Visualization</label>
+        <ul>
+            <li><a class="active" href="main.html">HOME</a></li>
+            <li><a href="bubbles.html">BUBBLE SORT</a></li>
+            <li><a href="insertions.html">INSERTION SORT</a></li>
+            <li><a href="marges.html">MERGE SORT</a></li>
+            <li><a href="quicks.html">QUICK SORT</a></li>
+        
+
+       </ul>
+      
+        <label id="icon">
+        <i class="fas fa-bars"></i>
+    </label> 
+  
+     </nav>
+     <h3 align="right">INSERTION SORT</h3>
+<!--	<section class="head">Insertion Sort</section>-->
+	<section class="data-container"></section>
+	<section id="ele"></section>
+	<div style="margin: auto; width: fit-content;">
+
+	<!-- "Generate New Array" button -->
+<button class="btn1"
+		onclick="generate()" id="Button1" >
+	Generate New Array</button>
+	   <br><br>
+<!-- "Insertion Sort" button -->
+<button class="btn2"
+		onclick="InsertionSort(),disable()"
+		id="Button2" >
+	Insertion Sort</button>
+	</div>	
+</body>
+
+<!-- linking index.js -->
+<script src="insertions.js"></script>
+</html>

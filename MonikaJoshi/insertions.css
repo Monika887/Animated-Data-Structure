@@ -1,0 +1,62 @@
+.mySlides {
+display: none;
+}
+
+body {
+background-color: white;
+font-family: Verdana, sans-serif;
+}
+
+
+.data-container {
+width: 600px;
+height: 350px;
+position: relative;
+margin: 0 auto;
+margin-top: 10px;
+margin-left: 40px;
+}
+
+.bar {
+width: 28px;
+position: absolute;
+left: 0;
+bottom: 0;
+background-color: rgb(105, 219, 152);
+transition: 0.07s all ease;
+}
+
+.bar__id {
+position: absolute;
+top: -24px;
+width: 100%;
+text-align: left;
+
+}
+.btn1
+{
+padding: 10px;
+font-weight: bolder;
+background-color: #6f459e;
+border-radius: 10px;
+color: white;
+font-size: 16px;
+border: white;
+margin-top: 2vw;
+margin-right: 80vw;
+}
+
+.btn2
+{
+padding: 10px;
+font-weight: bolder;
+background-color: #6f459e;
+border-radius: 10px;
+color: white;
+font-size: 16px;
+border: white
+}
+#ele{
+text-align: center;
+height: 35px;
+}
